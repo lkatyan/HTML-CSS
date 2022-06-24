@@ -1,0 +1,139 @@
+body {
+    font-size: 18px;
+    font-family: monospace;
+ }
+ 
+.container-first {
+    height: 100px;
+    width: 300px;
+    padding-left: 30px;
+}
+
+.container-first p:first-line {
+    color: #0000FF;
+  }
+
+.container-first p:first-letter {
+    font-size: 30px;
+    color: #FF0000;
+  }
+
+.container-first a {
+    text-decoration:none;
+    color: black;
+    display: block;
+    height: 100px;
+    width: 300px;
+ }
+
+ .container-second {
+    display: inline-block;
+    margin: 40px;
+    background: url("https://yastatic.net/morda-logo/i/bender/logo.svg") no-repeat 50% 50%;
+    background-size: 70%;
+    border: 1px solid #E1E1E1;
+    border-radius: 7px;
+    position: relative;
+ }
+
+ .container-second a {
+    display: block;
+    width: 295px;
+    height: 100px;
+ }
+
+ .number {
+    padding: 5px 9px;
+    border-radius: 5px;
+    position: absolute;
+    top: 34%;
+    right: -15px;
+    border: 1px solid #C9C9C9;
+    background-color: #ECECEC;
+    color: #6A6C6B;
+    font-weight: bold;
+ }
+
+.container-third {
+    background-color: white; 
+    font-family: sans-serif; 
+    font-size: 11px;
+    display: block; 
+    width: 90%; 
+    margin: 20px auto; 
+    border: 1px solid #C7C7C7; 
+    border-radius: 5px; 
+    padding: 0 20px;
+}
+
+.header {
+    padding: 0; 
+}
+
+.header p {
+    font-weight: bold; 
+    line-height: 14px; 
+    font-size: 14px; 
+    margin-bottom: 0px;
+}
+
+.header div {
+    float: right; 
+    position: relative; 
+    bottom: 15px;
+}
+
+a {
+    text-decoration: none; 
+    color: #1963A8;
+}
+
+a:hover {
+    color: #22158F;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-top: 0px;
+}
+
+td {
+    width: 33%;
+}
+
+td p {
+    font-weight: bold;
+}
+
+img {
+    display: block; 
+    width: 60px; 
+    height: 70px; 
+    float: left; 
+    margin-right:10px 5px 0 0; 
+}
+
+.bottom {
+    display: block; 
+    width: 200px; 
+    margin: 10px auto; 
+    text-align: center;
+}
+
+.bottom a {
+    display: inline-block;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%;  
+    margin: 5px;
+}
+
+.bottom .active {
+    background-color: #2EAFFF; 
+    color: white;
+}
+
+.bottom a:hover {
+    background-color: #78FFF6;
+}
